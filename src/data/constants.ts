@@ -1,6 +1,6 @@
 // Data - Constantes y Datos de Prueba del Proyecto
 
-import { Desarrollador, Bug, PullRequest, Proyecto } from '../types';
+import { Desarrollador, Bug, PullRequest, Proyecto } from '../models/interfaces';
 
 // Datos de prueba - Desarrolladores
 const dev1: Desarrollador = {

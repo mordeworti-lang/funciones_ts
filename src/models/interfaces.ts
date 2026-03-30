@@ -1,10 +1,6 @@
 // Interfaces y Tipos del Proyecto
 
-type Rol = "frontend" | "backend" | "fullstack" | "QA" | "DevOps";
-type Nivel = "junior" | "mid" | "senior" | "lead";
-type EstadoBug = "abierto" | "en revisión" | "resuelto" | "cerrado";
-type Prioridad = "baja" | "media" | "alta" | "crítica";
-type EstadoPR = "borrador" | "abierto" | "aprobado" | "mergeado" | "rechazado";
+import { Rol, Nivel, EstadoBug, Prioridad, EstadoPR } from './types';
 
 interface Desarrollador {
   readonly id: number;
@@ -59,5 +55,5 @@ interface ResumenDev {
   disponible: boolean;
 }
 
-export type { Rol, Nivel, EstadoBug, Prioridad, EstadoPR };
+
 export type { Desarrollador, Bug, PullRequest, Proyecto, ResumenDev };
